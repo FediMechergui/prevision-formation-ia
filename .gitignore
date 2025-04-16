@@ -1,0 +1,29 @@
+.venv/
+venv/
+ENV/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDEs
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs and outputs
+*.log
+*.sqlite3
+
+# Environment/config
+.env
+.env.*
+
+# Data (raw, temp)
+data/raw/

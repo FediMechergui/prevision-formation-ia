@@ -1,0 +1,65 @@
+formation_id,formation_name,category,instructor,price_usd,duration_hours,region,inscriptions,evaluations,participation_rate,date
+1,Python pour débutants,Programmation,Jean Dupont,49,20,France,120,4.5,0.85,2024-01-15
+2,Data Science avancée,Data Science,Claire Martin,99,35,France,80,4.7,0.9,2024-02-10
+3,Machine Learning,IA,Ali Benali,129,40,Canada,150,4.6,0.88,2024-03-05
+4,Analyse de données,Data Science,Marie Dubois,79,25,Belgique,60,4.2,0.8,2024-01-28
+5,Visualisation avec Matplotlib,Visualisation,Paul Lefevre,39,18,France,110,4.3,0.82,2024-02-20
+6,Développement Web Full Stack,Développement Web,Lucas Petit,119,50,France,95,4.4,0.87,2024-04-12
+7,Cybersécurité Essentials,Sécurité,Anna Moreau,139,30,Canada,75,4.1,0.78,2024-05-03
+8,SQL pour l'analyse,Data Science,Karim Nouri,59,15,France,130,4.6,0.91,2024-06-18
+9,Deep Learning avec TensorFlow,IA,Emma Girard,149,45,Suisse,88,4.5,0.85,2024-07-09
+10,Gestion de projets Agile,Management,Julie Bernard,99,20,Belgique,145,4.3,0.83,2024-08-22
+11,Cloud AWS Fundamentals,Cloud Computing,Pierre Lambert,109,25,France,102,4.7,0.92,2024-09-14
+12,UI/UX Design Pratique,Design,Sophie Rousseau,89,20,Canada,67,4.0,0.76,2024-10-05
+13,Big Data avec Hadoop,Big Data,Thomas Leroy,159,40,France,113,4.4,0.84,2024-11-19
+14,DevOps et CI/CD,DevOps,Youssef Khadraoui,129,30,Maroc,79,4.2,0.81,2024-12-10
+15,JavaScript Moderne,Développement Web,Émilie Chevalier,69,25,France,156,4.8,0.93,2024-01-05
+16,Blockchain Basics,Blockchain,Antoine Moreau,79,18,Belgique,63,3.9,0.72,2024-02-15
+17,Python pour la Finance,Finance,Nadia El-Mansouri,119,30,Canada,94,4.5,0.86,2024-03-25
+18,Réseaux Neurones Convolutifs,IA,Mehdi Zidane,139,35,France,82,4.6,0.89,2024-04-07
+19,Gestion de Bases de Données NoSQL,Base de Données,Camille Perrin,89,20,Suisse,107,4.3,0.82,2024-05-30
+20,Analyse Sentimentale en NLP,NLP,Julien Marchand,99,25,France,71,4.1,0.77,2024-06-12
+21,Automatisation avec Python,Automatisation,Amine Bouchard,79,18,Canada,134,4.7,0.9,2024-07-18
+22,React Avancé,Développement Web,Clara Dupuis,129,30,France,89,4.4,0.83,2024-08-03
+23,Test Logiciel et QA,Qualité,Omar Toumi,59,15,Maroc,58,3.8,0.7,2024-09-22
+24,Data Engineering,Ingénierie des Données,Léa Fontaine,149,35,France,121,4.6,0.88,2024-10-14
+25,Marketing Digital Analytics,Marketing,Hugo Vidal,79,20,Belgique,97,4.2,0.81,2024-11-27
+26,Docker et Kubernetes,DevOps,Samira Belkacem,109,25,Canada,105,4.5,0.85,2024-12-08
+27,Scrum Master Certifié,Management,Alexandre Mercier,199,20,France,68,4.0,0.75,2024-01-20
+28,Power BI pour Débutants,Visualisation,Lucie Garnier,69,15,Suisse,142,4.6,0.89,2024-02-25
+29,Ethique en IA,Éthique,Farid Benmoussa,49,10,Maroc,53,3.7,0.68,2024-03-12
+30,API REST avec Flask,Développement Web,Manon Leroy,89,20,France,116,4.4,0.84,2024-04-17
+31,Git et GitHub Maîtrise,Outils,Mathis Roy,39,10,Canada,91,4.3,0.82,2024-05-09
+32,Tableau pour Experts,Visualisation,Sarah Cohen,129,25,France,77,4.1,0.78,2024-06-21
+33,Angular Framework,Développement Web,Karim El-Fassi,149,35,Maroc,124,4.7,0.91,2024-07-14
+34,Analyse Prédictive,Data Science,Élodie Martin,139,30,France,85,4.5,0.86,2024-08-29
+35,Sécurité des Données RGPD,Sécurité,Théo Lemoine,89,20,Belgique,99,4.2,0.8,2024-09-11
+36,Java pour Entreprises,Développement Web,Rémi Gautier,109,25,Canada,112,4.6,0.87,2024-10-03
+37,Azure Cloud Basics,Cloud Computing,Nora Saadi,79,18,France,66,3.9,0.73,2024-11-16
+38,Python pour la Biologie,Bio-Informatique,Maxime Rousseau,99,20,Suisse,73,4.0,0.76,2024-12-19
+39,Data Mining Avancé,Data Science,Anissa Khaldi,179,40,Maroc,128,4.8,0.94,2024-01-08
+40,UI/UX Avancé,Design,Marine Leclerc,149,30,France,59,3.8,0.71,2024-02-14
+41,Spring Framework,Développement Web,Yanis Boukari,119,25,Canada,138,4.7,0.9,2024-03-19
+42,Analyse de Risques Financiers,Finance,Chloé Dubois,139,30,France,81,4.1,0.79,2024-04-25
+43,Swift pour iOS,Développement Mobile,Olivier Lenoir,99,20,Belgique,104,4.5,0.85,2024-05-12
+44,Administration Linux,Systèmes,Karim Bensalem,79,15,Maroc,92,4.3,0.82,2024-06-23
+45,GraphQL et Apollo,Développement Web,Louise Morel,89,18,France,76,4.0,0.77,2024-07-17
+46,DataOps Méthodologies,DataOps,Idriss Toumi,159,35,Canada,119,4.6,0.88,2024-08-13
+47,Kotlin pour Android,Développement Mobile,Inès Da Silva,109,25,France,87,4.4,0.83,2024-09-28
+48,Analyse de Données Spatiales,Géomatique,Mehdi Zayani,129,30,Maroc,64,3.7,0.69,2024-10-22
+49,Microservices avec Node.js,Architecture,Clémentine Roy,149,35,Canada,131,4.8,0.93,2024-11-05
+50,SEO et Analyse Web,Marketing Digital,Fatima El-Amrani,69,15,France,55,3.9,0.72,2024-12-15
+51,MLOps Pratique,MLOps,Hugo Marchand,139,30,Suisse,96,4.5,0.86,2024-01-25
+52,Flutter pour Mobile,Développement Mobile,Léonie Perrot,99,25,France,109,4.6,0.89,2024-02-18
+53,Analyse de Données Médicales,Santé,Amira Benali,179,35,Maroc,72,4.1,0.78,2024-03-22
+54,Cryptographie Appliquée,Sécurité,Raphaël Lefebvre,119,25,Canada,83,4.3,0.81,2024-04-09
+55,Vue.js Framework,Développement Web,Salma El-Khattabi,89,20,France,117,4.7,0.9,2024-05-19
+56,Analyse de Réseaux Sociaux,Analyse Sociale,Victor Garnier,79,15,Belgique,69,3.8,0.7,2024-06-27
+57,Go Lang pour le Backend,Développement Web,Nabil Chérif,109,25,Maroc,123,4.6,0.88,2024-07-08
+58,Data Governance,Gouvernance,Emma Lacroix,199,30,France,98,4.2,0.8,2024-08-24
+59,Unity pour le Jeu Vidéo,Game Dev,Mathieu Rousseau,149,35,Canada,84,4.4,0.83,2024-09-16
+60,Analyse Temps Réel,Data Streaming,Sofia Ben Youssef,169,40,France,135,4.9,0.95,2024-10-30
+61,ERP avec Odoo,Gestion,Adrien Mercier,89,20,Suisse,61,3.9,0.71,2024-11-13
+62,Python pour l'Astronomie,Science des Données,Karim El-Masri,129,30,Maroc,127,4.7,0.9,2024-12-07
+63,Sécurité Cloud AWS,Sécurité,Clara Dubois,139,25,France,78,4.0,0.76,2024-01-31
+64,Analyse de Données Textuelles,NLP,Youssef Amrani,99,20,Canada,114,4.5,0.85,2024-02-28

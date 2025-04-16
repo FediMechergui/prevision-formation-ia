@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard Prévision Formations</title>
+    <script src="https://cdn.plot.ly/plotly-2.32.0.min.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f9f9f9; margin: 0; }
+        .container { max-width: 1200px; margin: 30px auto; padding: 20px; background: #fff; border-radius: 10px; box-shadow: 0 2px 8px #0001; }
+        h1 { color: #2a3f5f; }
+        .charts { display: flex; flex-wrap: wrap; gap: 30px; justify-content: space-between; align-items: stretch; }
+        .chart { flex: 1 1 420px; min-width: 300px; max-width: 600px; background: #f4f6fa; padding: 20px; border-radius: 12px; margin-bottom: 30px; box-shadow: 0 2px 8px #0001; display: flex; flex-direction: column; justify-content: flex-start; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Dashboard Prévision des Formations Populaires</h1>
+    <div class="charts">
+        <div class="chart" id="top5"></div>
+        <div class="chart" id="trend"></div>
+        <div class="chart" id="catpie"></div>
+        <div class="chart" id="regionbar"></div>
+        <div class="chart" id="pricebox"></div>
+        <div class="chart" id="ratingshist"></div>
+        <div class="chart" id="pricevsenroll"></div>
+        <div class="chart" id="participationinstructor"></div>
+    </div>
+</div>
+<script>
+fetch('/api/stats').then(r => r.json()).then(data => {
+    Plotly.newPlot('top5', data.top5);
+    Plotly.newPlot('trend', data.trend);
+    Plotly.newPlot('catpie', data.category_pie);
+    Plotly.newPlot('regionbar', data.region_bar);
+    Plotly.newPlot('pricebox', data.price_box);
+    Plotly.newPlot('ratingshist', data.ratings_hist);
+    Plotly.newPlot('pricevsenroll', data.price_vs_enrollments);
+    Plotly.newPlot('participationinstructor', data.participation_by_instructor);
+});
+</script>
+</body>
+</html>
