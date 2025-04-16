@@ -57,7 +57,7 @@ Développer une plateforme prédictive et analytique qui :
 
 1. **Cloner le dépôt**
 ```bash
-git clone <votre-url-git-ou-github>
+git clone https://github.com/FediMechergui/prevision-formation-ia.git
 cd prevision-formation-ia
 ```
 2. **Créer un environnement virtuel**
